@@ -9,6 +9,9 @@
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
               rel="stylesheet">
+       <link rel="stylesheet" href="src/css/reset.css">
+       <link rel="stylesheet" href="src/css/estilos.css">
+       <link rel="stylesheet" href="src/css/responsividade.css">
 </head>
 
 <body>
@@ -19,15 +22,15 @@
        </header>
        <main class="container">
               <section class="card main-card">
-                     <h2>Descreva o background que você deseja</h2>
+                     <h2 class="card-header">Descreva o background que você deseja</h2>
                      <form class="form-group">
                             <textarea id="description"
                                    placeholder="Ex: um gradiente azul suave que vai do azul claro para o azul escuro"
                                    rows="5"></textarea>
+                            <button id="generate-btn" class="btn-magic">
+                                   <span class="btn-text">Gerar Background Mágico</span>
+                            </button>
                      </form>
-                     <button id="generate-btn" class="btn-magic">
-                            <span class="btn-text">Gerar Background Mágico</span>
-                     </button>
               </section>
               <section id="preview-section" class="preview-card"></section>
               <section id="code-output" class="code-grid">
