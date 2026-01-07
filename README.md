@@ -65,10 +65,8 @@
 
 ## Ferramentas de desevolvimento
 
-- STS
-- Insomnia
-- Docker Desktop
-
+- Visual Studio Code
+- Navegador
 
 # Explicação Geral	
   - [Explicação Geral](https://www.youtube.com/watch?v=)
