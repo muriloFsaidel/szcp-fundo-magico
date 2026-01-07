@@ -2,7 +2,7 @@
 
 ![GitHub Created At](https://img.shields.io/github/created-at/muriloFsaidel/szcp-fundo-magico)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/muriloFsaidel/szcp-fundo-magico)
-![Gitea Last Commit](https://img.shields.io/gitea/last-commit/muriloFsaidel/szcp-fundo-magico)
+![GitHub last commit](https://img.shields.io/github/last-commit/muriloFsaidel/szcp-fundo-magico)
 ![GitHub language count](https://img.shields.io/github/languages/count/muriloFsaidel/szcp-fundo-magico)
 
 
