@@ -19,12 +19,14 @@ function setLoading(isLoading) {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-        // 1. No JavaScript, pegar o evento de submit do formulário para evitar o recarregamento da página.
-        const form = document.querySelector('.form-group');
-        const textArea = document.getElementById('description');
-        const htmlCode = document.getElementById('html-code');
-        const cssCode = document.getElementById('css-code');
-        const preview = document.getElementById('preview-section');
+       
+        const form = document.querySelector(".form-group");
+        const textArea = document.getElementById("description");
+        const htmlCode = document.getElementById("html-code");
+        const cssCode = document.getElementById("css-code");
+        const preview = document.getElementById("preview-section");
+
+         // 1. No JavaScript, pegar o evento de submit do formulário para evitar o recarregamento da página.
         form.addEventListener('submit', async function (event) {
                 event.preventDefault();
 
@@ -60,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                         if (styleTag) styleTag.remove();
                         if (data.style) {
-                                styleTag = document.createElement('style');
+                                styleTag = document.createElement("style");
                                 styleTag.id = "dynamic-style";
 
                                 styleTag.textContent = data.style;
@@ -80,6 +82,4 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
 
         });
-
-
 });
