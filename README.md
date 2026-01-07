@@ -18,7 +18,7 @@
    
   ## Conceitos
   
- - Estrutura HTML
+ - Estrutura HTML e Javascript
  - Elementos, objetos, métodos, funções, estrutura condicional, tratamento de exeções com try catch e finally, eventos, requisições para API usando fetch, variáveis (let,var e const) e atributos
  - Manipulação de estilos CSS utilizando seletores por tag, classe, descendência, id e global, responsividade (@media)
  - Utilização de IA como ferramenta de aprendizado e resolução de dúvidas
