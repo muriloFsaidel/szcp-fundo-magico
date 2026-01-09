@@ -24,7 +24,9 @@
  - Utilização de IA como ferramenta de aprendizado e resolução de dúvidas
  - Ferramenta de automação N8N por meio de configuração de webhooks, e AI Model
  - Github pages deploy
-    
+
+ ## Modelo Conceitual no N8N (explicação no vídeo de execução geral no final do readme)
+![N8N](https://raw.githubusercontent.com/muriloFsaidel/assets/main/SZPCFM/n8n.png)    
    
 ## Screenshots da aplicação
 
@@ -69,7 +71,8 @@
 - Navegador
 
 # Explicação Geral	
-  - [Explicação Geral](https://www.youtube.com/watch?v=)
+  - [Explicação Geral](https://www.youtube.com/watch?v=LF2xCbEKVyE)
+  - [Execução Geral](https://www.youtube.com/watch?v=RzXJX0xWwR0)
   
 # Autor
 
